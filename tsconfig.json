@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "sourceMap": true,
+    "module": "esnext",
+    "target": "es2017",
+    "esModuleInterop": true,
+    "jsxFactory": "Aurum.factory",
+    "jsx": "react",
+    "moduleResolution": "node"
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx"]
+}
