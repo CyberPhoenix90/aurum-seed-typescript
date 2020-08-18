@@ -1,5 +1,5 @@
-import { Aurum } from "aurumjs";
-import "../scss/example.scss";
+import { Aurum } from 'aurumjs';
+import '../scss/example.scss';
 import aurumImg from './images/aurum.png';
 
 Aurum.attach(

@@ -4,7 +4,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
     entry: {
-        app: './src/main.tsx',
+        app: './src/main.tsx'
     },
     plugins: [
         new CleanWebpackPlugin(),
@@ -18,23 +18,23 @@ module.exports = {
         rules: [
             {
                 test: /\.tsx?$/,
-                use: "ts-loader",
+                use: 'ts-loader',
                 exclude: /node_modules|dist/
             },
             {
                 test: /\.css$/,
-                use: ["style-loader", "css-loader"]
+                use: ['style-loader', 'css-loader']
             },
             {
                 test: /\.s[ac]ss$/i,
                 exclude: /node_modules|dist/,
                 use: [
                     // Creates `style` nodes from JS strings
-                    "style-loader",
+                    'style-loader',
                     // Translates CSS into CommonJS
-                    "css-loader",
+                    'css-loader',
                     // Compiles Sass to CSS
-                    "sass-loader"
+                    'sass-loader'
                 ]
             },
             {
@@ -49,12 +49,12 @@ module.exports = {
         ]
     },
     resolve: {
-        extensions: [".tsx", ".ts", ".js"]
+        extensions: ['.tsx', '.ts', '.js']
     },
     output: {
-        publicPath: "./",
-        globalObject: "self",
-        filename: "static/js/[name].bundle.js",
-        path: path.resolve(__dirname, "dist")
+        publicPath: './',
+        globalObject: 'self',
+        filename: 'static/js/[name].bundle.js',
+        path: path.resolve(__dirname, 'dist')
     }
-}; 
+};
