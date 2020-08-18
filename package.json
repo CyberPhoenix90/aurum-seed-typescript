@@ -4,30 +4,34 @@
   "description": "",
   "private": true,
   "scripts": {
-    "build": "webpack",
-    "dev": "webpack-dev-server -w",
+    "build": "webpack --config webpack.prod.js",
+    "dev": "webpack-dev-server -w --config webpack.dev.js",
     "test": "jest",
-    "host": "http-server -c-1 -o"
+    "host": "http-server ./dist -c-1 -o"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "devDependencies": {
     "@types/jest": "^24.0.23",
+    "clean-webpack-plugin": "^3.0.0",
     "css-loader": "^3.2.0",
-    "http-server": "^0.11.1",
-    "jest": "^24.9.0",
+    "file-loader": "^6.0.0",
+    "html-webpack-plugin": "^4.3.0",
+    "http-server": "^0.12.3",
+    "jest": "^26.4.0",
     "sass": "^1.23.7",
     "sass-loader": "^8.0.0",
     "style-loader": "^1.0.0",
-    "ts-jest": "^24.1.0",
+    "ts-jest": "^26.2.0",
     "ts-loader": "^6.2.1",
-    "typescript": "^3.7.2",
-    "webpack": "^4.41.2",
+    "typescript": "^3.9.7",
+    "webpack": "^4.44.1",
     "webpack-cli": "^3.3.10",
-    "webpack-dev-server": "^3.9.0"
+    "webpack-dev-server": "^3.11.0",
+    "webpack-merge": "^5.1.1"
   },
   "dependencies": {
-    "aurumjs": "0.3.10"
+    "aurumjs": "0.5.19"
   }
 }
