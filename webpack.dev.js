@@ -7,7 +7,7 @@ module.exports = merge(common, {
     devtool: 'inline-source-map',
     devServer: {
         watchContentBase: true,
-        publicPath: "/",
+        publicPath: '/',
         hot: true,
         contentBase: path.join(__dirname, 'dist'),
         inline: true
@@ -15,4 +15,4 @@ module.exports = merge(common, {
     optimization: {
         usedExports: true
     }
-}); 
+});

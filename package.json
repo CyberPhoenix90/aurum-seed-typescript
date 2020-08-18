@@ -1,37 +1,39 @@
 {
-  "name": "aurum-seed-typescript",
-  "version": "0.0.0",
-  "description": "",
-  "private": true,
-  "scripts": {
-    "build": "webpack --config webpack.prod.js",
-    "dev": "webpack-dev-server -w --config webpack.dev.js",
-    "test": "jest",
-    "host": "http-server ./dist -c-1 -o"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "MIT",
-  "devDependencies": {
-    "@types/jest": "^24.0.23",
-    "clean-webpack-plugin": "^3.0.0",
-    "css-loader": "^3.2.0",
-    "file-loader": "^6.0.0",
-    "html-webpack-plugin": "^4.3.0",
-    "http-server": "^0.12.3",
-    "jest": "^26.4.0",
-    "sass": "^1.23.7",
-    "sass-loader": "^8.0.0",
-    "style-loader": "^1.0.0",
-    "ts-jest": "^26.2.0",
-    "ts-loader": "^6.2.1",
-    "typescript": "^3.9.7",
-    "webpack": "^4.44.1",
-    "webpack-cli": "^3.3.10",
-    "webpack-dev-server": "^3.11.0",
-    "webpack-merge": "^5.1.1"
-  },
-  "dependencies": {
-    "aurumjs": "0.5.19"
-  }
+    "name": "aurum-seed-typescript",
+    "version": "0.0.0",
+    "description": "",
+    "private": true,
+    "scripts": {
+        "build": "webpack --config webpack.prod.js",
+        "dev": "webpack-dev-server -w --config webpack.dev.js",
+        "test": "jest",
+        "host": "http-server ./dist -c-1 -o"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "MIT",
+    "devDependencies": {
+        "@types/jest": "^24.0.23",
+        "@typescript-eslint/eslint-plugin": "^3.9.1",
+        "@typescript-eslint/parser": "^3.9.1",
+        "clean-webpack-plugin": "^3.0.0",
+        "css-loader": "^3.2.0",
+        "file-loader": "^6.0.0",
+        "html-webpack-plugin": "^4.3.0",
+        "http-server": "^0.12.3",
+        "jest": "^26.4.0",
+        "sass": "^1.23.7",
+        "sass-loader": "^8.0.0",
+        "style-loader": "^1.0.0",
+        "ts-jest": "^26.2.0",
+        "ts-loader": "^6.2.1",
+        "typescript": "^3.9.7",
+        "webpack": "^4.44.1",
+        "webpack-cli": "^3.3.10",
+        "webpack-dev-server": "^3.11.0",
+        "webpack-merge": "^5.1.1"
+    },
+    "dependencies": {
+        "aurumjs": "0.5.19"
+    }
 }
