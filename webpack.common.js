@@ -6,7 +6,12 @@ module.exports = {
     entry: {
         app: './src/main.tsx',
     },
-    plugins: [],
+    plugins: [
+        new CleanWebpackPlugin(),
+        new HtmlWebpackPlugin({
+            template: 'index.html'
+        })
+    ],
     module: {
         rules: [
             {
