@@ -9,7 +9,8 @@ module.exports = {
     plugins: [
         new CleanWebpackPlugin(),
         new HtmlWebpackPlugin({
-            template: 'index.html'
+            template: 'index.html',
+            inject: true
         })
     ],
     module: {
@@ -41,9 +42,9 @@ module.exports = {
         extensions: [".tsx", ".ts", ".js"]
     },
     output: {
-        publicPath: "./dist/",
+        publicPath: "./",
         globalObject: "self",
-        filename: "[name].bundle.js",
+        filename: "static/js/[name].bundle.js",
         path: path.resolve(__dirname, "dist")
     }
 }; 

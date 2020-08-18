@@ -7,7 +7,7 @@
     "build": "webpack --config webpack.prod.js",
     "dev": "webpack-dev-server -w --config webpack.dev.js",
     "test": "jest",
-    "host": "http-server -c-1 -o"
+    "host": "http-server ./dist -c-1 -o"
   },
   "keywords": [],
   "author": "",
