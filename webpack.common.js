@@ -10,6 +10,7 @@ module.exports = {
         new CleanWebpackPlugin(),
         new HtmlWebpackPlugin({
             template: 'index.html',
+            favicon: 'favicon.ico',
             inject: true
         })
     ],
