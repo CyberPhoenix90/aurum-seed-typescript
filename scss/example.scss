@@ -17,13 +17,22 @@ html {
             justify-content: center;
 
             .hello {
-                color: red;
+                color: gold;
+                text-shadow: 2px 2px #aaa;
                 font-size: 28px;
                 margin-bottom: 20px;
             }
 
             .aurum-img {
                 width: 120px;
+            }
+
+            .links {
+                margin-top:16px;
+            }
+
+            .links a {
+                margin:10px;
             }
         }
     }
