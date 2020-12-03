@@ -34,6 +34,6 @@
         "webpack-merge": "^5.1.1"
     },
     "dependencies": {
-        "aurumjs": "0.5.21"
+        "aurumjs": "0.5.48"
     }
 }
