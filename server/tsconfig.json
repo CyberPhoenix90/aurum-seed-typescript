@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "outDir": "dist",
+        "sourceMap": true,
+        "module": "Node16",
+        "target": "ESNext",
+        "jsxFactory": "Aurum.factory",
+        "jsxFragmentFactory": "Aurum.fragment",
+        "jsx": "react",
+        "moduleResolution": "Node16"
+    },
+    "include": [
+        "src/**/*.ts",
+        "src/**/*.tsx",
+        "test/**/*.tsx",
+        "test/**/*.ts",
+        "src/index.mts",
+        "test/example.test.mts"
+    ]
+}

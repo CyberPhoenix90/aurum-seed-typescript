@@ -6,8 +6,9 @@
         "target": "es2017",
         "esModuleInterop": true,
         "jsxFactory": "Aurum.factory",
+        "jsxFragmentFactory": "Aurum.fragment",
         "jsx": "react",
         "moduleResolution": "node"
     },
-    "include": ["src/**/*.ts", "src/**/*.tsx"]
+    "include": ["src/**/*.ts", "src/**/*.tsx", "test/**/*.tsx", "test/**/*.ts"]
 }
