@@ -4,7 +4,7 @@
     "description": "",
     "private": true,
     "scripts": {
-        "backend": "cd server && nodemon --watch 'src/**/*.mts' --exec 'tsc && node dist/index.mjs'",
+        "backend": "cd server && nodemon -e mts --watch 'src/**/*.mts' --exec 'tsc && node dist/src/index.mjs'",
         "dev": "vite",
         "build": "vite build && cd server && tsc",
         "host": "npm run build && cd server && node dist/index.mjs",
