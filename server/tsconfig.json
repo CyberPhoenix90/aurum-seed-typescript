@@ -11,11 +11,11 @@
         "moduleResolution": "Node16"
     },
     "include": [
+        "src/**/*.mts",
         "src/**/*.ts",
         "src/**/*.tsx",
+        "test/**/*.mts",
         "test/**/*.tsx",
-        "test/**/*.ts",
-        "src/index.mts",
-        "test/example.test.mts"
+        "test/**/*.ts"
     ]
 }
