@@ -4,6 +4,7 @@
         "sourceMap": true,
         "module": "Node16",
         "target": "ESNext",
+        "skipLibCheck": true,
         "jsxFactory": "Aurum.factory",
         "jsxFragmentFactory": "Aurum.fragment",
         "jsx": "react",
