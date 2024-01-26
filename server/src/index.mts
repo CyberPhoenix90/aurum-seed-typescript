@@ -20,7 +20,7 @@ aurumServer.exposeFunction<{ a: number; b: number }, number>(
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
-app.use(express.static(join(__dirname, '../../client/dist')));
+app.use(express.static(join(__dirname, '../../../client/dist')));
 
 server.listen(3000, () => {
     console.log('listening on 3000');

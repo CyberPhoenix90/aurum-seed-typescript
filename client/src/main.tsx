@@ -44,10 +44,24 @@ Aurum.attach(
             <img src={aurumImg} class="aurum-img" />
         </a>
         <div class="links">
-            <a href="https://github.com/CyberPhoenix90/aurum">Github</a>
-            <a href="https://www.npmjs.com/package/aurumjs">Npm</a>
-            <a href="https://aurumjs.org/">Official website</a>
-            <a href="https://aurumjs.org/#/getting_started">Getting Started</a>
+            <a href="https://github.com/CyberPhoenix90/aurum" target="_blank">
+                Github
+            </a>
+            <a href="https://www.npmjs.com/package/aurumjs" target="_blank">
+                Npm
+            </a>
+            <a
+                href="https://cyberphoenix90.github.io/aurum-website"
+                target="_blank"
+            >
+                Official website
+            </a>
+            <a
+                href="https://cyberphoenix90.github.io/aurum-website/#/getting_started"
+                target="_blank"
+            >
+                Getting Started
+            </a>
         </div>
 
         <div>

@@ -4,10 +4,11 @@
     "description": "",
     "private": true,
     "scripts": {
-        "backend": "cd server && nodemon -e mts --watch 'src/**/*.mts' --exec 'tsc && node dist/src/index.mjs'",
+        "preinstall": "cd server && npm install",
+        "backend": "cd server && nodemon -e mts --watch 'src/**/*.mts' --exec 'tsc && node .'",
         "dev": "vite",
         "build": "vite build && cd server && tsc",
-        "host": "npm run build && cd server && node dist/index.mjs",
+        "host": "npm run build && cd server && node .",
         "test:client": "vitest --config ./client/vitest.config.ts",
         "test:server": "vitest --config ./server/vitest.config.ts",
         "coverage": "vitest run --coverage"
@@ -25,8 +26,8 @@
     },
     "dependencies": {
         "@emotion/css": "^11.10.6",
-        "aurum-canvas": "^0.0.31",
-        "aurum-components": "^0.3.1",
-        "aurumjs": "^0.8.16"
+        "aurum-canvas": "^0.0.50",
+        "aurum-components": "^0.3.19",
+        "aurumjs": "^0.9.26"
     }
 }
