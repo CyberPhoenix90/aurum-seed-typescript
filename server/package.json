@@ -10,8 +10,8 @@
     "author": "",
     "license": "ISC",
     "dependencies": {
-        "@types/node": "^18.16.1",
-        "aurum-server": "^0.0.21",
+        "@types/node": "^20.14.10",
+        "aurum-server": "^0.0.37",
         "express": "^4.18.2"
     },
     "devDependencies": {

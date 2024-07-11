@@ -17,17 +17,17 @@
     "author": "",
     "license": "MIT",
     "devDependencies": {
-        "@vitest/ui": "^0.30.1",
+        "@vitest/ui": "^2.0.2",
         "happy-dom": "^9.9.2",
-        "nodemon": "^2.0.22",
+        "nodemon": "^3.1.4",
         "typescript": "^5.0.4",
-        "vite": "^4.5.3",
-        "vitest": "^0.30.1"
+        "vite": "^5.3.3",
+        "vitest": "^2.0.2"
     },
     "dependencies": {
         "@emotion/css": "^11.10.6",
-        "aurum-canvas": "^0.0.50",
-        "aurum-components": "^0.3.19",
-        "aurumjs": "^0.9.26"
+        "aurum-canvas": "^0.0.51",
+        "aurum-components": "^0.3.25",
+        "aurumjs": "^0.9.43"
     }
 }

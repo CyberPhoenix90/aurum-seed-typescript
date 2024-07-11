@@ -93,6 +93,7 @@ function TestComponent(
             <NumberField value={a}></NumberField>
             <NumberField value={b}></NumberField>
             <Button
+                buttonType="action"
                 onClick={async () => {
                     result.update(await add({ a: a.value, b: b.value }));
                 }}
