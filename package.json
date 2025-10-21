@@ -17,12 +17,12 @@
     "author": "",
     "license": "MIT",
     "devDependencies": {
-        "@vitest/ui": "^2.0.2",
+        "@vitest/ui": "^3.2.4",
         "happy-dom": "^20.0.2",
         "nodemon": "^3.1.4",
         "typescript": "^5.0.4",
-        "vite": "^5.4.21",
-        "vitest": "^2.0.2"
+        "vite": "^7.1.11",
+        "vitest": "^3.2.4"
     },
     "dependencies": {
         "@emotion/css": "^11.10.6",
