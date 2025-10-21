@@ -18,7 +18,7 @@
     "license": "MIT",
     "devDependencies": {
         "@vitest/ui": "^2.0.2",
-        "happy-dom": "^15.10.2",
+        "happy-dom": "^20.0.2",
         "nodemon": "^3.1.4",
         "typescript": "^5.0.4",
         "vite": "^5.4.14",
